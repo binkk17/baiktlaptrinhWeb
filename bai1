@@ -10,16 +10,27 @@
             color: rgba(255, 255, 255, 0.864);
             height: 100vh;
             text-align: center;
-            }        
+            }
+        .doanvan{
+            text-align: center;
+            margin-right: 20%;
+            margin-left: 20%;
+        }        
         .container {
             text-align: center;
         }
+        .timkiem{
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
         #timtheo{
-            height: 30px;
-
+            width: 60%;
+            height: 50px;
+            border: solid 2px orange;
+            padding: 0 50px;
         }
         button{
-            padding: 20px 0px;
+            padding: 12px 0px;
             width: 20%;
             background-color: rgb(68, 68, 196);
             border: solid 2px white;
@@ -27,14 +38,22 @@
             border-radius: 5px;
             margin-right: 50px;
             }
+        .dieukhoan{
+                font-size: 14px;
+                margin: 10px 0;   
+            }
         .lienket{
             display: flex;
             justify-content: center;
             position: relative;
             }
         .quangcao{
-            font-size: 20px;
-            color:aqua
+            background-color: green;
+            font-size: 10px;
+            color:rgb(252, 252, 252);
+            border: none;
+            width: 120px;
+            height: 4px;
         }
 
 
@@ -42,21 +61,19 @@
 </head>
 <body class="container">
     <h1>Trình rút ngắn URL của PTIT Logger - Đăng nhập và theo dõi đia chi IP</h1>
-    <p>PTIT Logger là Công cụ rút ngan URL với các phân tích nâng cao ve lưu lượng truy cập thông qua các lien kết, khách truy cập trên cửa hang trực tuyến, blog hoặc trang web của bạn. Với các dịch vụ trực tuyến IPLogger, bạn có thế tìm địa chỉ IP của riêng mình, tìm vị trí địa chỉ IP và theo dõi vị trí chính xác của bất kỳ thiết bị di động hoặc PC nào, kiếm tra URL đế tìm các chuyến hướng ấn vì lý do an toàn. Có một số cách đế thu thập phân tích chi tiết và theo dõi địa chỉ IP: liên kết ngân, pixel vô hình, công cụ ghi nhật ký địa lý độc đáo và sử dụng trình theo dõi URL. Bạn có thế sử dụng bảy IP hoàn toàn hợp pháp bằng cách sử dụng công nghệ được cấp bằng sáng chế độc đáo của chúng tôi để thu thập sự đồng ý của người dùng</p>
+    <div ><p style="margin-left: 20%;margin-right: 20%;">PTIT Logger là Công cụ rút ngan URL với các phân tích nâng cao ve lưu lượng truy cập thông qua các lien kết, khách truy cập trên cửa hang trực tuyến, blog hoặc trang web của bạn. Với các dịch vụ trực tuyến IPLogger, bạn có thế tìm địa chỉ IP của riêng mình, tìm vị trí địa chỉ IP và theo dõi vị trí chính xác của bất kỳ thiết bị di động hoặc PC nào, kiếm tra URL đế tìm các chuyến hướng ấn vì lý do an toàn. Có một số cách đế thu thập phân tích chi tiết và theo dõi địa chỉ IP: liên kết ngân, pixel vô hình, công cụ ghi nhật ký địa lý độc đáo và sử dụng trình theo dõi URL. Bạn có thế sử dụng bẩy IP hoàn toàn hợp pháp bằng cách sử dụng công nghệ được cấp bằng sáng chế độc đáo của chúng tôi để thu thập sự đồng ý của người dùng</p></div>
         <br>
-        <label for="">Tạo liên kết mới, URL theo dõi hoặc điện thoại di động</label>
+        <label for="timkiem" class="timkiem"><h4>Tạo liên kết mới, URL theo dõi hoặc điện thoại di động</h4></label>
         <br>
         <input type="search" name="timkiem" id="timtheo" placeholder="Nhập URL, số điện thoại theo mã hoặc mã theo dõi hợp lệ">
         <br>
-        <p>Bằng cách tạo một trình ghi nhật ký, bạn đồng ý với<strong> các điều khoản</strong> và <strong>chính sách quyền riêng tư</strong> của chúng tôi</p>
+        <div class="dieukhoan" >Bằng cách tạo một trình ghi nhật ký, bạn đồng ý với <a href="#">các điều khoản</a> và <a href="#">chính sách quyền riêng tư của chúng tôi</a> của chúng tôi</div>
         <br>
         <div class="lienket">
             <button >Tạo một liên kết ngắn</button>
             <button>Đó là mã theo dõi</button>
         </div>
-
-        <br>
-        <p class="quangcao">Tắt quảng cáo</p>
+        <button class="quangcao">Tắt QUẢNG CÁO</button>
 
 </body>
 </html>
