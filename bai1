@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background: url("https://img.freepik.com/premium-vector/world-map-blue-background_322958-253.jpg");
+            color: rgba(255, 255, 255, 0.864);
+            height: 100vh;
+            text-align: center;
+            }        
+        .container {
+            text-align: center;
+        }
+        #timtheo{
+            height: 30px;
+
+        }
+        button{
+            padding: 20px 0px;
+            width: 20%;
+            background-color: rgb(68, 68, 196);
+            border: solid 2px white;
+            color: white;
+            border-radius: 5px;
+            margin-right: 50px;
+            }
+        .lienket{
+            display: flex;
+            justify-content: center;
+            position: relative;
+            }
+        .quangcao{
+            font-size: 20px;
+            color:aqua
+        }
+
+
+    </style>
+</head>
+<body class="container">
+    <h1>Trình rút ngắn URL của PTIT Logger - Đăng nhập và theo dõi đia chi IP</h1>
+    <p>PTIT Logger là Công cụ rút ngan URL với các phân tích nâng cao ve lưu lượng truy cập thông qua các lien kết, khách truy cập trên cửa hang trực tuyến, blog hoặc trang web của bạn. Với các dịch vụ trực tuyến IPLogger, bạn có thế tìm địa chỉ IP của riêng mình, tìm vị trí địa chỉ IP và theo dõi vị trí chính xác của bất kỳ thiết bị di động hoặc PC nào, kiếm tra URL đế tìm các chuyến hướng ấn vì lý do an toàn. Có một số cách đế thu thập phân tích chi tiết và theo dõi địa chỉ IP: liên kết ngân, pixel vô hình, công cụ ghi nhật ký địa lý độc đáo và sử dụng trình theo dõi URL. Bạn có thế sử dụng bảy IP hoàn toàn hợp pháp bằng cách sử dụng công nghệ được cấp bằng sáng chế độc đáo của chúng tôi để thu thập sự đồng ý của người dùng</p>
+        <br>
+        <label for="">Tạo liên kết mới, URL theo dõi hoặc điện thoại di động</label>
+        <br>
+        <input type="search" name="timkiem" id="timtheo" placeholder="Nhập URL, số điện thoại theo mã hoặc mã theo dõi hợp lệ">
+        <br>
+        <p>Bằng cách tạo một trình ghi nhật ký, bạn đồng ý với<strong> các điều khoản</strong> và <strong>chính sách quyền riêng tư</strong> của chúng tôi</p>
+        <br>
+        <div class="lienket">
+            <button >Tạo một liên kết ngắn</button>
+            <button>Đó là mã theo dõi</button>
+        </div>
+
+        <br>
+        <p class="quangcao">Tắt quảng cáo</p>
+
+</body>
+</html>
